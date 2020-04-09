@@ -1,0 +1,38 @@
+{
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "#fff",
+            "background": "#ffbd2a",
+            "iconColour": "#4cc61e"
+        },
+        "FIXME": {
+            "foreground": "#fff",
+            "background": "#f06292",
+            "icon": "bug",
+            "iconColour": "#f06292"
+        },
+        "NOTE": {
+            "foreground": "#fff",
+            "background": "#1abc9c",
+            "icon": "info",
+            "iconColour": "#1abc9c"
+        },
+        "HACK": {
+            "foreground": "#fff",
+            "background": "#2980b9",
+            "icon": "gist-secret",
+            "iconColour": "#2980b9"
+        }
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "NOTE",
+        "HACK"
+    ],
+    "todo-tree.tree.grouped": true,
+    "todo-tree.tree.tagsOnly": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.showInExplorer": false,
+    "todo-tree.tree.showScanModeButton": false
+}

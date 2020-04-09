@@ -1,0 +1,79 @@
+{
+    "vim.leader": ",",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["K"],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": ["P"],
+            "commands": [
+                "editor.action.triggerParameterHints"
+            ]
+        },
+        {
+            "before": ["leader", "w"],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": ["leader", "q"],
+            "commands": [
+                ":q"
+            ]
+        },
+        {
+            "before": ["leader", "cr"],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": ["leader", "n", "n"],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": ["leader", "n", "e"],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
+                "workbench.action.focusSideBar"
+            ]
+        },
+        {
+            "before": ["leader", "d"],
+            "commands": [
+                "editor.action.goToDeclaration"
+            ]
+        },
+        {
+            "before": ["leader", "f"],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": ["leader", "s"],
+            "commands": [
+                "editor.action.triggerSuggest"
+            ]
+        },
+        {
+            "before": ["leader", "c"],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": ["leader", "b", "c"],
+            "commands": [
+                "editor.action.blockComment"
+            ]
+        }
+    ]
+}

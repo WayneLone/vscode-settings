@@ -74,6 +74,12 @@
             "commands": [
                 "editor.action.blockComment"
             ]
+        },
+        {
+            "before": ["leader", "k", "m"],
+            "commands": [
+                "workbench.action.editor.changeLanguageMode"
+            ]
         }
     ]
 }
